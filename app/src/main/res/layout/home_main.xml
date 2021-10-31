@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2E2E2E"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="28dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profile" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:src="@drawable/location"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/i1"
+            android:text="Pengantaran"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
+            android:text="Tanah Toraja"
+            android:textColor="#C3C3C3"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/filter" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makanan"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:background="@drawable/e"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="110dp"
+            android:background="@drawable/home_menu_bottom"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/st1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Khas Toraja"
+                android:textColor="#C3C3C3"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/ht1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/st1"
+                android:layout_marginTop="5dp"
+                android:text="Pokon"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="16dp"
+                android:layout_below="@id/ht1"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/rating_orange_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/st1"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:text="Rp. 16.500,-"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minuman"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:background="@drawable/h"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="110dp"
+            android:background="@drawable/home_menu_bottom"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/st"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Khas Toraja"
+                android:textColor="#C3C3C3"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/ht"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/st"
+                android:layout_marginTop="5dp"
+                android:text="Sirup Pisang"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="16dp"
+                android:layout_below="@id/ht"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/rating_orange_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/st"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:text="Rp. 8.500,-"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makanan"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/a"
+                android:layout_gravity="center"/>
+
+            <RelativeLayout
+                android:layout_width="400dp"
+                android:layout_height="110dp"
+                android:background="@drawable/home_menu_bottom"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/st2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Khas Toraja"
+                    android:textColor="#C3C3C3"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/ht2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/st2"
+                    android:layout_marginTop="5dp"
+                    android:text="Pantollo Balle"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="16dp"
+                    android:layout_below="@id/ht2"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/rating_orange_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/st2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Rp. 26.000,-"
+                    android:textColor="#fff"
+                    android:textSize="22dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minuman"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/i"
+                android:layout_gravity="center"/>
+
+            <RelativeLayout
+                android:layout_width="400dp"
+                android:layout_height="110dp"
+                android:background="@drawable/home_menu_bottom"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/st3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Khas Toraja"
+                    android:textColor="#C3C3C3"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/ht3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/st3"
+                    android:layout_marginTop="5dp"
+                    android:text="Sarabba"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="16dp"
+                    android:layout_below="@id/ht3"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/rating_orange_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/st3"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Rp. 9.000,-"
+                    android:textColor="#fff"
+                    android:textSize="22dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
